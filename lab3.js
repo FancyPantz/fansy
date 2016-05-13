@@ -23,7 +23,14 @@ ctx.fill();
 //mouth
 ctx.rect(91,100,20,10);
 ctx.stroke();
+ctx.fill();
+    
+    //teeth
+    ctx.fillStyle="blue";
+    ctx.rect(70,100,20,10);
+    ctx.stroke();
 
+    
 //hat
     ctx.fillStyle="black";    
     ctx.beginPath();
@@ -37,11 +44,16 @@ ctx.stroke();
     ctx.fillRect(65,30,70,30);
     
 //bodytop
-    ctx.rotate(20*Math.PI/180);
+    ctx.rotate(178*Math.PI/180);
     ctx.beginPath();
-    ctx.arc(100,70,50,0,1*Math.PI);
+    ctx.arc(-97,-175,50,0,1*Math.PI);
     ctx.stroke();
     
+//body bottom
+    ctx.rotate(0*Math.PI/0);
+    ctx.beginPath();
+    ctx.arc(-100,-175,50,0,1*Math.PI);
+    ctx.stroke();
   }
 }
 
